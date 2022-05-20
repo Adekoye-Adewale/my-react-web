@@ -1,0 +1,11 @@
+.Head{
+    position: sticky;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: #000 0.1px -30px 50px;
+}
+
+.Head-logo {
+    width: 70px;
+}
