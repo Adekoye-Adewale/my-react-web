@@ -1,12 +1,12 @@
+import React from 'react';
 import "./StAPr.css";
 
-    function StAPr () {
-        return (
-            <button>
+    const stAPr = () => {
+        return <button>
                 Start A Project
-            </button>
-        )
-    }
+                </button>
+    
+    };
 
 
-export default StAPr;
+export default stAPr;

@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './Header.css';
 import Menu from './Menu';
+import StAPr from './StAPr';
 
 function Header() {
   return (
@@ -10,6 +11,9 @@ function Header() {
         </div>
         <div className="Head-menu">
             <Menu />
+        </div>
+        <div className='head-btn'>
+            <StAPr />
         </div>
     </div>
   );
