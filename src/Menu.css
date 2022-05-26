@@ -1,4 +1,5 @@
 div>span {
+    position: relative;
     padding: 0px 20px;
     cursor: pointer;
 }
@@ -8,7 +9,33 @@ div>span::after {
     width: 100%;
     position: absolute;
     left: 0;
+    bottom: 0;
     background-color: red;
-    height: 5px;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 250ms ease-out;
+}
 
+div>span::before {
+    content: "";
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 250ms ease-out;
+}
+
+div>span:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+div>span:hover::before {
+    transform: scaleX(1);
+    transform-origin: right;
 }
