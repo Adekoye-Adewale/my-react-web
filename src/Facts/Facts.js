@@ -1,6 +1,6 @@
 import React from 'react';
 import './Facts.css';
-import pic from '../Images/logo.svg'
+import pic from '../Images/adisa-logo.png'
 
 function Facts(props) {
     return (
