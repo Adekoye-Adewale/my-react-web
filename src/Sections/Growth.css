@@ -1,0 +1,12 @@
+.growth {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.fact {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}

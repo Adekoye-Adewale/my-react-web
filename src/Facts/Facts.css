@@ -1,0 +1,15 @@
+.ft {
+    background-color: rgb(158, 107, 40);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ft > picture {
+    width: 50%;
+}
+
+.ft > span {
+    font-weight: 800;
+    font-size: 30px;
+}

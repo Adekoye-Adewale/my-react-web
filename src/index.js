@@ -4,6 +4,7 @@ import './index.css';
 import Header from './Header';
 import App from './Sections/App';
 import AboutSection from './Sections/AboutSection';
+import Growth from './Sections/Growth'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,6 +13,7 @@ root.render(
     <Header/>
     <App />
     <AboutSection />
+    <Growth />
   </React.StrictMode>
 );
 
