@@ -1,5 +1,7 @@
 .Head{
-    position: sticky;
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +12,6 @@
     width: 70px;
 }
 
-.head-btn {
+/* .head-btn {
     
-}
+} */

@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../src/Images/adisa-logo.png';
 import './Header.css';
 import Menu from './Menu';
 import StAPr from './StAPr';

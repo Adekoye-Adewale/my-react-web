@@ -1,0 +1,15 @@
+.AbtSec {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 20px;
+    background-color: #e1e1ee;
+}
+
+.adewale {
+    width: 100px;
+    border: solid #000 20px;
+    border-radius: 25px;
+}
