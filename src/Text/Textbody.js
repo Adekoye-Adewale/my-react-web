@@ -1,10 +1,10 @@
 import React from 'react';
 import './Textbody.css';
 
-function Textbody() {
+function Textbody(props) {
     return (
       <div>
-         <p>I create reliable...</p>
+         <p>{props.text}</p>
       </div>
     );
   }

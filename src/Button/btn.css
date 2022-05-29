@@ -1,0 +1,8 @@
+.btn {
+    font-family: montserrat;
+    font-weight: 600;
+    color: #000;
+    border: solid #000 3px;
+    background-color: transparent;
+    border-radius: 25px;
+}

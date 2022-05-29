@@ -2,10 +2,10 @@ import React from 'react';
 import './Topic.css';
 
 
-function Topic() {
+function Topic(props) {
     return (
       <div>
-          <h2>I Am Adekoye Adewale</h2>
+          <h2>{props.topic2}</h2>
       </div>
     );
   }
