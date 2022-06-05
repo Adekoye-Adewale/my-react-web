@@ -1,4 +1,5 @@
 body {
+  width: 1400px;
   margin: 0;
   font-family: Montserrat, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,18 @@ body {
 code {
   font-family: Montserrat, source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media (max-width: 900px) {
+  body {
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 440px) {
+  body {
+    width: 90%;
+  }
+  
 }

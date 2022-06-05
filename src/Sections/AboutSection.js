@@ -1,6 +1,6 @@
 import './AboutSection.css';
 import Textbody from '../Text/Textbody';
-import adewale from '../Images/adisa-logo.png';
+import adewale from '../Images/Adekoye-Adewale.png';
 import SemiTitle from '../Text/SemiTitle';
 import Topic from '../Text/Topic';
 
