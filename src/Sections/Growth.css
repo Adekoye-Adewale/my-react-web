@@ -5,8 +5,37 @@
 
 .fact {
     padding: 10px 20px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    column-gap: 40px;
     justify-content: center;
-    justify-content: space-evenly;
     align-items: center;
 }
+
+@media (max-width: 900px) {
+
+    .fact {
+        padding: 10px 20px;
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+  
+
+@media (max-width: 500px) {
+
+    .fact {
+        margin: 0px auto;
+        padding: 10px 20px;
+        display: block;
+        width: 250px;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+  
+

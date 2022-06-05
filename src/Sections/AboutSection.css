@@ -13,3 +13,39 @@
     border: solid #000 20px;
     border-radius: 25px;
 }
+
+@media (max-width: 900px) {
+
+    body {
+        text-align: center;
+    }
+
+    .AbtSec {
+        display: block;
+        padding: 50px 20px;
+    }
+
+    .adewale {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+}
+
+@media (max-width: 500px) {
+
+    body {
+        text-align: center;
+    }
+
+    .AbtSec {
+        display: block;
+        padding: 50px 20px;
+    }
+
+    .adewale {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+}

@@ -11,3 +11,37 @@
   border: solid #000 20px;
   border-radius: 50px;
 }
+
+@media (max-width: 500px) {
+
+  .App {
+    display: block;
+    padding: 100px 20px 50px;
+  }
+  
+  .adisavector{
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .App {
+    display: block;
+    padding: 100px 20px 50px;
+  }
+  
+  .adisavector{
+    max-width: 200px;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 50px;
+  }
+
+}

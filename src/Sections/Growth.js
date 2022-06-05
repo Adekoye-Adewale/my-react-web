@@ -12,13 +12,13 @@ function Growth() {
             topic2="I Have Grown Stronger Over The Past 3 Years" />
 
         <div className='fact'>
-            <Facts 
+            <Facts className='fact1'
                 factnumber='30+' 
                 facttext='Satisfied Clients' />
-            <Facts 
+            <Facts className='fact1'
                 factnumber='45+' 
                 facttext='Completed Projects' />
-            <Facts 
+            <Facts className='fact1'
                 factnumber='15+' 
                 facttext='Design Tools' />
         </div>

@@ -20,9 +20,10 @@ code {
   
 }
 
-@media (max-width: 440px) {
+@media (max-width: 500px) {
   body {
-    width: 90%;
+    width: 100%;
+    overflow-x: hidden;
   }
   
 }
